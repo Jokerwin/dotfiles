@@ -72,11 +72,11 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(colored-man-pages copydir copyfile docker docker-compose git github pip virtualenv z)
+plugins=(colored-man-pages copydir copyfile docker docker-compose git github pip pyenv python virtualenv z)
 
 source $ZSH/oh-my-zsh.sh
 
